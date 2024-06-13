@@ -31,8 +31,12 @@ namespace BLL
                 Value = p.MaHP,
                 Text = p.NameHP
             }).ToList();
-            list.Add(new CBBItem { Value = "0", Text = "All" });
             return list;
         }
+
+        //public List<CBBItem> GetLHP()
+        //{
+
+        //}
     }
 }

@@ -189,6 +189,7 @@
             this.txt_tongket.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txt_tongket.Location = new System.Drawing.Point(682, 365);
             this.txt_tongket.Name = "txt_tongket";
+            this.txt_tongket.ReadOnly = true;
             this.txt_tongket.Size = new System.Drawing.Size(306, 26);
             this.txt_tongket.TabIndex = 14;
             // 
@@ -259,6 +260,7 @@
             this.btn_ok.TabIndex = 19;
             this.btn_ok.Text = "OK";
             this.btn_ok.UseVisualStyleBackColor = true;
+            this.btn_ok.Click += new System.EventHandler(this.btn_ok_Click);
             // 
             // btn_cancel
             // 

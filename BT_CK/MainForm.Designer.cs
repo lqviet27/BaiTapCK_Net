@@ -97,6 +97,7 @@
             this.btn_up.TabIndex = 5;
             this.btn_up.Text = "Update";
             this.btn_up.UseVisualStyleBackColor = true;
+            this.btn_up.Click += new System.EventHandler(this.btn_up_Click);
             // 
             // btn_add
             // 
@@ -107,6 +108,7 @@
             this.btn_add.TabIndex = 5;
             this.btn_add.Text = "Add";
             this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // btn_del
             // 
@@ -117,6 +119,7 @@
             this.btn_del.TabIndex = 6;
             this.btn_del.Text = "Delete";
             this.btn_del.UseVisualStyleBackColor = true;
+            this.btn_del.Click += new System.EventHandler(this.btn_del_Click);
             // 
             // bnt_sort
             // 
@@ -127,6 +130,7 @@
             this.bnt_sort.TabIndex = 7;
             this.bnt_sort.Text = "Sort";
             this.bnt_sort.UseVisualStyleBackColor = true;
+            this.bnt_sort.Click += new System.EventHandler(this.bnt_sort_Click);
             // 
             // dataGridView1
             // 
